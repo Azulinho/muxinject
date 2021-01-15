@@ -20,14 +20,6 @@ docker run -it busybox sh
 
 Then open another terminal, 
 and create your payload, a local file called *payload.tar.gz*.
-
-
-``` sh
-
-wget -c https://github.com/torvalds/linux/archive/master.tar.gz
-mv master.tar.gz payload.tar.gz
-```
-
 and inject it into the *busybox* container.
 
 ``` sh
